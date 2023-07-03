@@ -461,6 +461,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Btu-bZ-7Pz">
                                 <rect key="frame" x="20" y="806" width="374" height="36"/>
                                 <color key="backgroundColor" red="0.15054957568645477" green="0.15034264326095581" blue="0.15674735605716705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="okButton"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="Gpj-99-oS5"/>
                                 </constraints>

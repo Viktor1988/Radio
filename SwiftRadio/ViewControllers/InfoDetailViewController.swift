@@ -33,7 +33,9 @@ class InfoDetailViewController: UIViewController {
         
         // Display Station Name & Short Desc
         stationNameLabel.text = currentStation.name
+        stationNameLabel.accessibilityIdentifier = Accessibility.InfoDetailViewController.stationNameLabel.rawValue
         stationDescLabel.text = currentStation.desc
+        stationDescLabel.accessibilityIdentifier = Accessibility.InfoDetailViewController.stationDescLabel.rawValue
         
         // Display Station Long Desc
         if currentStation.longDesc == "" {
@@ -41,6 +43,7 @@ class InfoDetailViewController: UIViewController {
         } else {
             stationLongDescTextView.text = currentStation.longDesc
         }
+        self.okayButton.accessibilityIdentifier = Accessibility.InfoDetailViewController.okayButton.rawValue
     }
     
     func loadDefaultText() {
@@ -53,6 +56,7 @@ class InfoDetailViewController: UIViewController {
         // Display Station Image/Logo
         currentStation.getImage { [weak self] image in
             self?.stationImageView.image = image
+            self?.stationImageView.accessibilityIdentifier = Accessibility.InfoDetailViewController.imageViewLogoRadio.rawValue
         }
         
         // Apply shadow to Station Image

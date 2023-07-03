@@ -85,6 +85,7 @@
 		CEDABBEB291217AF00C0367F /* UIImageView+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDABBEA291217AF00C0367F /* UIImageView+Cache.swift */; };
 		CEDABBED29121BBA00C0367F /* UIImage+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDABBEC29121BBA00C0367F /* UIImage+Cache.swift */; };
 		CF72ACE721F7155200461EED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF72ACE621F714D000461EED /* Main.storyboard */; };
+		DF07785E2A5304A6006D21F7 /* Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF07785D2A5304A6006D21F7 /* Accessibility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,6 +141,7 @@
 		CEDABBEA291217AF00C0367F /* UIImageView+Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Cache.swift"; sourceTree = "<group>"; };
 		CEDABBEC29121BBA00C0367F /* UIImage+Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Cache.swift"; sourceTree = "<group>"; };
 		CF72ACE621F714D000461EED /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DF07785D2A5304A6006D21F7 /* Accessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessibility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +209,7 @@
 		9409E1181ABF6FEA00312E2B /* SwiftRadio */ = {
 			isa = PBXGroup;
 			children = (
+				DF07785C2A53047F006D21F7 /* Resources */,
 				CE0A4994291F3A220071C0CC /* SwiftRadio.entitlements */,
 				CE0A4993291F39660071C0CC /* CarPlay */,
 				CE8062F7291EF5D9008BD097 /* Helpers */,
@@ -325,6 +328,14 @@
 				CE6036182A48BA2500E15E15 /* UITableViewCell+reuseIdentifier.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DF07785C2A53047F006D21F7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF07785D2A5304A6006D21F7 /* Accessibility.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -523,6 +534,7 @@
 				94AC70AE1AD05C6200652982 /* RadioStation.swift in Sources */,
 				CE9EE8E1293C048A00F62041 /* LoaderController.swift in Sources */,
 				CEDABBEB291217AF00C0367F /* UIImageView+Cache.swift in Sources */,
+				DF07785E2A5304A6006D21F7 /* Accessibility.swift in Sources */,
 				CE6036132A47A87A00E15E15 /* StationsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
