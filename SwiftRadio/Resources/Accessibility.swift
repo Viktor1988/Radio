@@ -16,4 +16,15 @@ public final class Accessibility: NSObject {
         case okayButton
         case imageViewLogoRadio
     }
+    
+    public enum StationScreen: String {
+        case nameStation
+    }
+    
+    public enum Test: String {
+        case name
+        case address
+        case email
+        case age
+    }
 }

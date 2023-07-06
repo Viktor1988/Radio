@@ -36,6 +36,7 @@ class InfoDetailViewController: UIViewController {
         stationNameLabel.accessibilityIdentifier = Accessibility.InfoDetailViewController.stationNameLabel.rawValue
         stationDescLabel.text = currentStation.desc
         stationDescLabel.accessibilityIdentifier = Accessibility.InfoDetailViewController.stationDescLabel.rawValue
+        print("stationDescLabel.accessibilityIdentifier: + \(String(describing: stationDescLabel.accessibilityIdentifier))")
         
         // Display Station Long Desc
         if currentStation.longDesc == "" {

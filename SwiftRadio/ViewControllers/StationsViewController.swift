@@ -218,6 +218,7 @@ extension StationsViewController: UITableViewDataSource {
             
             let station = searchController.isActive ? manager.searchedStations[indexPath.row] : manager.stations[indexPath.row]
             cell.configureStationCell(station: station)
+            cell.accessibilityIdentifier = Accessibility.StationScreen.nameStation.rawValue
             return cell
         }
     }

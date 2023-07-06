@@ -299,6 +299,7 @@ class NowPlayingViewController: UIViewController {
     
     @IBAction func shareButtonPressed(_ sender: UIButton) {
         guard let station = manager.currentStation else { return }
+        
         delegate?.didTapShareButton(self, station: station, artworkURL: player.currentArtworkURL)
     }
     
