@@ -1,0 +1,6 @@
+framework module Pods_SwiftRadio_CarPlay {
+  umbrella header "Pods-SwiftRadio-CarPlay-umbrella.h"
+
+  export *
+  module * { export * }
+}

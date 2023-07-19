@@ -67,7 +67,9 @@ class InfoDetailViewController: UIViewController {
     // MARK: - IBActions
     
     @IBAction func okayButtonPressed(_ sender: UIButton) {
-        _ = navigationController?.popViewController(animated: true)
+        let test = Test()
+        _ = navigationController?.popToViewController(test, animated: true)
+//        _ = navigationController?.popViewController(animated: true)
     }
     
 }

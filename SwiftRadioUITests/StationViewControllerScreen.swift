@@ -6,8 +6,9 @@
 //  Copyright © 2023 matthewfecher.com. All rights reserved.
 //
 
-import Foundation
-import Resources
+import UIKit
+import SwiftRadio
+
 import XCTest
 
 protocol BaseScreen {
@@ -22,5 +23,5 @@ extension BaseScreen {
 
 class StationViewControllerScreen: BaseScreen {
     
-    static let nameRadio = app.otherElements.matching(identifier: )
+    static let nameRadio = app.otherElements.matching(identifier: Accessibility.StationScreen.nameStation.rawValue)
 }

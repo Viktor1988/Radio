@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-class Test {
+class Test: UIViewController {
     
     struct User: Decodable {
         let name: String
